@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white_50">#ffffff</color>
+
+    <color name="black_800">#121212</color>
+    <color name="black_900">#000000</color>
+
+    <color name="violet_50">#EDE7F6</color>
+    <color name="violet_100">#D1C4E9</color>
+    <color name="violet_200">#B39DDB</color>
+    <color name="violet_300">#9575CD</color>
+    <color name="violet_400">#7E57C2</color>
+    <color name="violet_600">#673AB7</color>
+    <color name="violet_700">#5E35B1</color>
+    <color name="violet_800">#512DA8</color>
+    <color name="violet_A700">#6200EA</color>
+    <color name="violet_A400">#651fff</color>
+    <color name="violet_A900">#3700B3</color>
+    <color name="violet_dark">#3700B3</color>
+    <color name="violet_light">#9d46ff</color>
+
+    <color name="pink_300">#ab47bc</color>
+    <color name="pink_400">#ba68c8</color>
+
+    <color name="red_500">#ff5252</color>
+    <color name="red_400">#c50e29</color>
+    <color name="red_300">#ff867f</color>
+    <color name="red_200">#c85653</color>
+
+    <color name="oranger_500">#f44336</color>
+    <color name="oranger_400">#ef5350</color>
+    <color name="oranger_300">#e57373</color>
+
+    <color name="blue_50">#eef0f2</color>
+    <color name="blue_100">#d2dbe0</color>
+    <color name="blue_200">#adbbc4</color>
+    <color name="blue_300">#8ca2ae</color>
+    <color name="blue_600">#4a6572</color>
+    <color name="blue_700">#344955</color>
+    <color name="blue_800">#232f34</color>
+
+    <color name="error_color">#B00020</color>
+    <color name="error_color_light">#e94948</color>
+
+    <color name="orange_300">#fbd790</color>
+    <color name="orange_400">#f9be64</color>
+    <color name="orange_500">#f9aa33</color>
+
+    <color name="red_A200">#cf7779</color>
+    <color name="red_A400">#ff4c5d</color>
+
+    <color name="white_bg">#ede7f6</color>
+    <color name="white_50_alpha_060">#99ffffff</color>
+    <color name="white_50_alpha_030">#33ffffff</color>
+    <color name="grey_500">#424242</color>
+    <color name="grey_200">#DEDEDE</color>
+
+    <color name="blue_50_alpha_060">#99eef0f2</color>
+
+    <color name="black_900_alpha_020">#33000000</color>
+    <color name="black_900_alpha_087">#de000000</color>
+    <color name="black_900_alpha_060">#99000000</color>
+
+    <!--Nav bar color protection for behavior differences between Android P and Q. All sdk-->
+    <!--levels should draw fullscreen. P should color the nav bar with a translucent background -->
+    <!--to guard for contrast. Q should have a transparent nav bar as Q will automatically -->
+    <!--handles contrast by either dynamically coloring the nav bar handle (gesture nav) -->
+    <!--or automatically applying a translucent background (3-button mode).-->
+    <color name="nav_bar">@color/black_900</color>
+</resources>

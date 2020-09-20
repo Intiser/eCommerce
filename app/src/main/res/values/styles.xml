@@ -1,0 +1,75 @@
+<resources>
+
+
+    <style name="Widget.Reply.NavigationView" parent="Widget.MaterialComponents.NavigationView">
+        <!--Remove any scrim insets applied by NavigationView for system bars-->
+        <item name="insetForeground">@android:color/transparent</item>
+        <!--Set the background color of NavigationView-->
+        <item name="android:background">@android:color/transparent</item>
+        <item name="elevation">0dp</item>
+        <item name="itemTextAppearance">?attr/textAppearanceBody2</item>
+        <item name="itemTextColor">@color/color_on_surface_emphasis_medium</item>
+        <item name="itemIconTint">@color/color_on_surface_emphasis_medium</item>
+    </style>
+
+    <style name="Widget.Reply.Chip.Entry" parent="Widget.MaterialComponents.Chip.Entry">
+        <item name="closeIconSize">0dp</item>
+        <item name="closeIconEnabled">false</item>
+<!--        <item name="chipIcon">@drawable/avatar_none</item>-->
+<!--        <item name="chipIconSize">@dimen/chip_icon_diameter</item>-->
+        <item name="chipStartPadding">0dp</item>
+        <item name="android:checkable">false</item>
+    </style>
+
+    <style name="Widget.Reply.Toolbar" parent="Widget.MaterialComponents.Toolbar">
+        <item name="android:colorBackground">?android:colorAccent</item>
+        <item name="android:textAppearance">@style/TextAppearance.Reply.Toolbar</item>
+        <item name="titleTextColor">?android:attr/textColorPrimary</item>
+
+    </style>
+
+    <style name="Widget.App.Reply.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.TextInputLayout</item>
+<!--        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>-->
+        <item name="hintTextColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="ThemeOverlay.App.TextInputLayout" parent="">
+        <item name="colorPrimary">?android:colorPrimary</item>
+        <item name="colorOnSurface">?colorOnSurface</item>
+        <item name="colorError">?colorError</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.Reply.Subtitle1</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.Reply.Caption</item>
+<!--        <item name="editTextStyle">@style/Widget.MaterialComponents.TextInputEditText.*</item>-->
+    </style>
+
+    <style name="Widget.App.Reply.Button.OutlinedButton.IconOnly" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="iconPadding">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+        <item name="android:minWidth">48dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="Widget.App.Reply.Button.Normal" parent="Widget.MaterialComponents.Button">
+
+    </style>
+
+    <style name="Widget.App.Reply.Button.Text" parent="Widget.MaterialComponents.Button.TextButton">
+
+    </style>
+
+    <style name="Widget.Reply.ExtendedFloatingActionBar" parent="Widget.MaterialComponents.ExtendedFloatingActionButton">
+        <item name="titleTextColor">?colorOnSecondary</item>
+        <item name="android:textColor">?colorOnSecondary</item>
+        <item name="iconTint">?colorOnSecondary</item>
+    </style>
+
+
+    <style name="Preference.Style" parent="Preference">
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+</resources>
