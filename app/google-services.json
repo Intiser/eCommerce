@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "975991462720",
+    "firebase_url": "https://ecomapp-81197.firebaseio.com",
+    "project_id": "ecomapp-81197",
+    "storage_bucket": "ecomapp-81197.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:975991462720:android:7c450bab1e4b62d20638a5",
+        "android_client_info": {
+          "package_name": "com.ahsan.ecomapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "975991462720-kghoap497to69sh41cv73o4vonsihg1l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8g478UUAAPnOIBKEwdikfKjXtjty0k5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "975991462720-kghoap497to69sh41cv73o4vonsihg1l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
