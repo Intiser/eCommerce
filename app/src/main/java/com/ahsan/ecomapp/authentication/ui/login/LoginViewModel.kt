@@ -4,10 +4,11 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import android.util.Patterns
+import com.ahsan.ecomapp.R
 import com.ahsan.ecomapp.authentication.data.LoginRepository
 import com.ahsan.ecomapp.authentication.data.Result
 
-import com.ahsan.ecomapp.authentication.R
+
 
 class LoginViewModel(private val loginRepository: LoginRepository) : ViewModel() {
 

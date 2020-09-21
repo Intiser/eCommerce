@@ -10,9 +10,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Acusta.DayNight">
+        <activity android:name=".dashboard.DashboardActivity"></activity>
         <activity
-            android:name=".ui.login.LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+            android:name=".authentication.ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
         <activity android:name=".application.BaseActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
